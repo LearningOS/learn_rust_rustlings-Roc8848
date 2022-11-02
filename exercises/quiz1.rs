@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: zheng pengfei
+ * @Date: 2022-11-02 08:07:49
+ * @LastEditTime: 2022-11-02 08:31:54
+ * @LastEditors: zheng pengfei
+ */
 // quiz1.rs
 // This is a quiz for the following sections:
 // - Variables
@@ -8,10 +15,15 @@
 // more than 40 at once, each apple only costs 1! Write a function that calculates
 // the price of an order of apples given the quantity bought. No hints this time!
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_apple_price {
+fn calculate_apple_price(num:u32) -> u32 {
+    if(num <= 40){
+        2*num
+    }else{
+        num
+    }
+}
 
 // Don't modify this function!
 #[test]

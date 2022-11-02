@@ -1,13 +1,18 @@
+/*
+ * @Description: 
+ * @Author: zheng pengfei
+ * @Date: 2022-10-25 16:51:10
+ * @LastEditTime: 2022-11-01 21:51:44
+ * @LastEditors: zheng pengfei
+ */
 // variables2.rs
-// Make me compile! Execute the command `rustlings hint variables2` if you want a hint :)
-
-// I AM NOT DONE
+// Execute `rustlings hint variables2` or use the `hint` watch subcommand for a hint.
 
 fn main() {
-    let x;
+    let x = 0;
     if x == 10 {
-        println!("Ten!");
+        println!("x is ten!");
     } else {
-        println!("Not ten!");
+        println!("x is not ten!");
     }
 }

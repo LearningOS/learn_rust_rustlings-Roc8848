@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: zheng pengfei
+ * @Date: 2022-11-02 08:07:49
+ * @LastEditTime: 2022-11-02 08:08:56
+ * @LastEditors: zheng pengfei
+ */
 // intro1.rs
 // About this `I AM NOT DONE` thing:
 // We sometimes encourage you to keep trying things on a given exercise, even
@@ -5,7 +12,7 @@
 // ready for the next exercise, remove the `I AM NOT DONE` comment below.
 // Execute the command `rustlings hint intro1` for a hint.
 
-// I AM NOT DONE
+
 
 fn main() {
     println!("Hello and");
